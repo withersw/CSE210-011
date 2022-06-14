@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "njTBdBcUXMplJGzr8aKiyjlZUAm8VVkgXybTU2iWyGyOt3vT76pNHidJKXi4oZ4nXZEp7drancC9QGGbHMl7Fg==",
+  "success": true,
+  "projectFilePath": "/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/Unit04_Greed_Game/Unit04.csproj",
+  "expectedPackageFiles": [
+    "/Users/wadewithers/.nuget/packages/raylib-cs/4.0.0.1/raylib-cs.4.0.0.1.nupkg.sha512",
+    "/Users/wadewithers/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
