@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0SbTLReJlmvVl/XiZdxNvFtR0onvWF2qTXybBsoDFfrk1f80ASpTAfXYjMPbnJAWexZlV7xN2bQHAKiNbQ166A==",
+  "success": true,
+  "projectFilePath": "/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/cycle_game/Unit05.csproj",
+  "expectedPackageFiles": [
+    "/Users/wadewithers/.nuget/packages/raylib-cs/4.0.0.1/raylib-cs.4.0.0.1.nupkg.sha512",
+    "/Users/wadewithers/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
