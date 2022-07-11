@@ -1,0 +1,5 @@
+/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/W04_high_low_game/obj/Debug/net6.0/W04_high_low_game.csproj.AssemblyReference.cache
+/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/W04_high_low_game/obj/Debug/net6.0/W04_high_low_game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/W04_high_low_game/obj/Debug/net6.0/W04_high_low_game.AssemblyInfoInputs.cache
+/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/W04_high_low_game/obj/Debug/net6.0/W04_high_low_game.AssemblyInfo.cs
+/Users/wadewithers/Desktop/Spring 2022/Programming With Classes/CSE210-011/W04_high_low_game/obj/Debug/net6.0/W04_high_low_game.csproj.CoreCompileInputs.cache
