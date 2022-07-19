@@ -1,48 +1,47 @@
 using System;
 using System.Collections.Generic;
 
-namespace W04_high_low_game
-{
+namespace W04_high_low_game;
+
     public class Card
     {
         public int currentCard = 0;
         public int previousCard = 0;
         public List<int> cards = new List<int>();
-
+        public int card;
         public Card()
         {
-            this.currentCard = currentCard;
-            this.previousCard = previousCard;
-            this.cards = cards;
+            
         }
 
-        public void cardChoice(List<int> cards)
+        public int cardChoice()
         {
             Random random = new Random();
-            public int card = random.Next(1,14);
-            cards.Add(card);
+            card = random.Next(1,14);
+            //cards.Add(card);
+            return card;
         }
 
-        public int getCurrentCard(int currentCard, List<int> cards)
+        public int getCurrentCard()
         {
-            currentCard = cards[cards.Count - 1];
+            currentCard = cards.Last();
             return currentCard;
         }
 
-        public int getPreviousCard(int previousCard, List<int> cards)
+        public int getPreviousCard()
         {
-            previousCard = cards[cards.Count - 2];
+            previousCard = cards[^2];
             return previousCard;
         }
-        // public void DisplayCurrentCard(currentCard)
-        // {
-            
-        //     Console.WriteLine(currentCard);
-        // }
-        // public void DisplayPreviousCard(previousCard)
-        // {
-        //     Console.WriteLine(previousCard);
-        // }
+
+        public void displayPreviousCard()
+        {
+            Console.WriteLine($"The card is {getPreviousCard()}");
+        }
+        public void displayCurrentCard()
+        {
+            Console.WriteLine($"The new card is: {getCurrentCard()}");
+        }
+       
 
     }
-}

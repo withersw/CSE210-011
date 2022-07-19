@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "W04_high_low_game/1.0.0": {
+        "runtime": {
+          "W04_high_low_game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "W04_high_low_game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
