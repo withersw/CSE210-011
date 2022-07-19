@@ -17,22 +17,6 @@ namespace W04_high_low_game
 
         }
 
-        
-        // public string getUserChoice()
-        // {
-        //     Console.Write("Higher or lower? [h/l] ");
-        //     return userChoice = Console.ReadLine();
-        // }
-
-        public void displayPreviousCard(Card card)
-        {
-            Console.WriteLine($"The card is {card.getPreviousCard}");
-        }
-        public void displayCurrentCard(Card card)
-        {
-            Console.WriteLine($"The new card is: {card.getCurrentCard}");
-        }
-
         public void getInputs()
         {
             Console.Write("Higher or lower? [h/l] ");
@@ -43,9 +27,8 @@ namespace W04_high_low_game
         public void doUpdates(Card card)
         {
             int newCard = card.cardChoice();
-            //int newCard = card.getCurrentCard();
             int oldCard = card.cards.Last();
-            //displayCurrentCard(card);
+
                 if (userChoice == "h" && newCard > oldCard
                 || userChoice == "l" && newCard < oldCard )
                 {
@@ -62,26 +45,16 @@ namespace W04_high_low_game
 
         public void doOutputs()
         {
-            //card.displayCurrentCard();
             Console.WriteLine($"Your score is {score}");
             Console.Write("Play again? [y/n] ");
             playAgain = Console.ReadLine();
-            if (playAgain == "n")
+            if (playAgain == "n" || score <= 0)
             {
                 isPlaying = false;
             }
             else
             {
                 isPlaying = true;
-            }
-
-            if (score > 0)
-            {
-                isPlaying = true;
-            }
-            else if (score <= 0)
-            {
-                isPlaying = false;
             }
         }
        

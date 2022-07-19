@@ -18,30 +18,7 @@ namespace W04_high_low_game;
         {
             Random random = new Random();
             card = random.Next(1,14);
-            //cards.Add(card);
             return card;
         }
-
-        public int getCurrentCard()
-        {
-            currentCard = cards.Last();
-            return currentCard;
-        }
-
-        public int getPreviousCard()
-        {
-            previousCard = cards[^2];
-            return previousCard;
-        }
-
-        public void displayPreviousCard()
-        {
-            Console.WriteLine($"The card is {getPreviousCard()}");
-        }
-        public void displayCurrentCard()
-        {
-            Console.WriteLine($"The new card is: {getCurrentCard()}");
-        }
-       
 
     }
